@@ -3,6 +3,25 @@ All notable changes to this project will be documented in this file. See [conven
 
 - - -
 
+## [0.4.0](https://github.com/justinrubek/async-watcher/releases/tag/0.4.0) - 2025-11-25
+
+### bug fixes
+- remove feature-toggled derive with non-existing feature - ([7b49229](https://github.com/justinrubek/async-watcher/commit/7b49229549a2717331a39367870e19345f8e5e51)) - Justin Rubek
+
+### build system
+- **(cargo)** cargo update - ([e16bf72](https://github.com/justinrubek/async-watcher/commit/e16bf72c889ca806ecade0dfa6a41a5e0e020d91)) - Clement Hamada
+- **(nix)** update bomper - ([99bfa9c](https://github.com/justinrubek/async-watcher/commit/99bfa9ca441fbea075b7ff64b6a82fa15efdd504)) - Justin Rubek
+
+### chores
+- **(deps)** update notify to 8.2.0 - ([960a664](https://github.com/justinrubek/async-watcher/commit/960a6640e789887ef756f39841595922f27a5606)) - Clement Hamada
+
+### refactors
+- cargo fmt - ([a9b9f49](https://github.com/justinrubek/async-watcher/commit/a9b9f490f396f3f2dd606749f7f4da442a2451d8)) - Clement Hamada
+- remove superfluous new_with_channel_and_opts generic param - ([6f7c0ea](https://github.com/justinrubek/async-watcher/commit/6f7c0eae6278623fafeb7a4daed1460a2a2dce9e)) - Clement Hamada
+- cargo fix - ([2630b0c](https://github.com/justinrubek/async-watcher/commit/2630b0cd1c548bae1fd14279b95e528bad74fb6d)) - Clement Hamada
+
+- - -
+
 ## [0.3.0](https://github.com/justinrubek/async-watcher/releases/tag/0.3.0)
 
 This is a small change that adds the `event` field to `DebouncedEvent`.
